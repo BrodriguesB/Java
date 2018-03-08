@@ -11,6 +11,7 @@ class Filme{
   String titulo;
   String genero;
   String pais;
+  int Ranking;
   int classificacao;  // XX anos
   int anoLancamento; //Formato xxxx
   int duracao;      //xxx Minutos
@@ -22,6 +23,7 @@ class Main {
     f1.titulo = "Get Out";
     f1.genero = "Terror";
     f1.pais = "EUA";
+    f1.Ranking = 1;
     f1.classificacao = 16;
     f1.anoLancamento = 2017;
     f1.duracao = 104;
@@ -30,6 +32,7 @@ class Main {
     f2.titulo = "Darkest Hour";
     f2.genero = "Biografia, Drama Histórico";
     f2.pais = "Reino Unido";
+    f2.Ranking = 2;
     f2.classificacao = 12;
     f2.anoLancamento = 2018;
     f2.duracao = 125;
@@ -38,6 +41,7 @@ class Main {
     f3.titulo = "Call Me By Your Name";
     f3.genero = "Drama Romântico";
     f3.pais = "Itália, França, EUA, Brasil";
+    f3.Ranking = 3;
     f3.classificacao = 14;
     f3.anoLancamento = 2018;
     f3.duracao = 130;
@@ -46,6 +50,7 @@ class Main {
     f4.titulo = "Dunkirk";
     f4.genero = "Ação, Drama, Guerra";
     f4.pais = "EUA, Reino Unido, França";
+    f4.Ranking = 4;
     f4.classificacao = 14;
     f4.anoLancamento = 2017;
     f4.duracao = 108;
@@ -53,6 +58,7 @@ class Main {
     Filme f5 = new Filme();
     f5.titulo = "Lady Bird";
     f5.genero = "Comédia Dramática";
+    f5.Ranking = 5;
     f5.pais = "EUA";
     f5.classificacao = 14;
     f5.anoLancamento = 2018;
@@ -62,6 +68,7 @@ class Main {
     f6.titulo = "Loving Vincent";
     f6.genero = "Biografia";
     f6.pais = "Reino Unido, Polônia";
+    f6.Ranking = 6;
     f6.classificacao = 12;
     f6.anoLancamento = 2017;
     f6.duracao = 95;
@@ -70,6 +77,7 @@ class Main {
     f7.titulo = "The Post";
     f7.genero = "Biografia, Drama Histórico";
     f7.pais = "EUA";
+    f7.Ranking = 7;
     f7.classificacao = 12;
     f7.anoLancamento = 2018;
     f7.duracao = 135;
@@ -78,6 +86,7 @@ class Main {
     f8.titulo = "The Shape of Water";
     f8.genero = "Drama, Fantasia, Romance";
     f8.pais = "EUA";
+    f8.Ranking = 8;
     f8.classificacao = 16;
     f8.anoLancamento = 2018;
     f8.duracao = 121;
@@ -86,6 +95,7 @@ class Main {
     f9.titulo = "Three Billboards Outside Ebbing, Missouri";
     f9.genero = "Drama, Comédia";
     f9.pais = "EUA";
+    f9.Ranking = 9;
     f9.classificacao = 16;
     f9.anoLancamento = 2018;
     f9.duracao = 115;
@@ -94,6 +104,7 @@ class Main {
     f10.titulo = "I, Tonya";
     f10.genero = "Biografia, Esporte, Comédia Dramática";
     f10.pais = "EUA";
+    f10.Ranking = 10;
     f10.classificacao = 14;
     f10.anoLancamento = 2018;
     f10.duracao = 119;
@@ -102,6 +113,7 @@ class Main {
     f11.titulo = "The Florida Project";
     f11.genero = "Drama, Comédia Dramática";
     f11.pais = "EUA";
+    f11.Ranking = 11;
     f11.classificacao = 14;
     f11.anoLancamento = 2018;
     f11.duracao = 104;
@@ -110,6 +122,7 @@ class Main {
     f12.titulo = "All the Money in the World";
     f12.genero = "Suspense, Crime, Histórico";
     f12.pais = "EUA";
+    f12.Ranking = 12;
     f12.classificacao = 14;
     f12.anoLancamento = 2018;
     f12.duracao = 132;
@@ -118,6 +131,7 @@ class Main {
     f13.titulo = "Mudbound";
     f13.genero = "Drama Histórico";
     f13.pais = "EUA";
+    f13.Ranking = 13;
     f13.classificacao = 16;
     f13.anoLancamento = 2018;
     f13.duracao = 132;
@@ -126,6 +140,7 @@ class Main {
     f14.titulo = "The Big Sick";
     f14.genero = "Romance, Comédia Dramática";
     f14.pais = "EUA";
+    f14.Ranking = 14;
     f14.classificacao = 12;
     f14.anoLancamento = 2017;
     f14.duracao = 105;
@@ -134,6 +149,7 @@ class Main {
     f15.titulo = "The Disaster Artist";
     f15.genero = "Comédia Dramática";
     f15.pais = "EUA";
+    f15.Ranking = 15;
     f15.classificacao = 14;
     f15.anoLancamento = 2018;
     f15.duracao = 98;
@@ -142,6 +158,7 @@ class Main {
     f16.titulo = "Coco";
     f16.genero = "Animação, Aventura, Comédia";
     f16.pais = "EUA";
+    f16.Ranking = 16;
     f16.classificacao = 6;
     f16.anoLancamento = 2018;
     f16.duracao = 105;
@@ -150,6 +167,7 @@ class Main {
     f17.titulo = "Logan";
     f17.genero = "Ação";
     f17.pais = "EUA";
+    f17.Ranking = 17;
     f17.classificacao = 12;
     f17.anoLancamento = 2017;
     f17.duracao = 137;
@@ -158,6 +176,7 @@ class Main {
     f18.titulo = "Boss Baby";
     f18.genero = "Animação, Comédia, Família";
     f18.pais = "EUA";
+    f18.Ranking = 18;
     f18.classificacao = 6;
     f18.anoLancamento = 2016;
     f18.duracao = 135;
@@ -166,6 +185,7 @@ class Main {
     f19.titulo = "Ferdinand";
     f19.genero = "Animação, Aventura, Comédia";
     f19.pais = "EUA";
+    f19.Ranking = 19;
     f19.classificacao = 6;
     f19.anoLancamento = 2018;
     f19.duracao = 96;
@@ -174,70 +194,71 @@ class Main {
     f20.titulo = "Una Mujer Fantástica";
     f20.genero = "Drama";
     f20.pais = "Chile";
+    f20.Ranking = 20;
     f20.classificacao = 14;
     f20.anoLancamento = 2017;
     f20.duracao = 104;
     
     //Mostrando os valores
     //filme1
-    System.out.println("Filme *TOP 1*: "+f1.titulo+"\nGênero: "+f1.genero+"\nPaís "+f1.pais+"\nClassificação: "+f1.classificacao+" anos"+"\nAno de Lançamento: "+f1.anoLancamento+"\nDuração: "+f1.duracao+" Minutos");
+    System.out.println("Filme: "+f1.titulo+"\nRanking: "+f1.Ranking+"\nGênero: "+f1.genero+"\nPaís "+f1.pais+"\nClassificação: "+f1.classificacao+" anos"+"\nAno de Lançamento: "+f1.anoLancamento+"\nDuração: "+f1.duracao+" Minutos");
     System.out.println("\t");
     //filme2
-    System.out.println("Filme *TOP 2*: "+f2.titulo+"\nGênero: "+f2.genero+"\nPaís "+f2.pais+"\nClassificação: "+f2.classificacao+" anos"+"\nAno de Lançamento: "+f2.anoLancamento+"\nDuração: "+f2.duracao+" Minutos");
+    System.out.println("Filme: "+f2.titulo+"\nRanking: "+f2.Ranking+"\nGênero: "+f2.genero+"\nPaís "+f2.pais+"\nClassificação: "+f2.classificacao+" anos"+"\nAno de Lançamento: "+f2.anoLancamento+"\nDuração: "+f2.duracao+" Minutos");
     System.out.println("\t");
     //filme3
-    System.out.println("Filme *TOP 3*: "+f3.titulo+"\nGênero: "+f3.genero+"\nPaís "+f3.pais+"\nClassificação: "+f3.classificacao+" anos"+"\nAno de Lançamento: "+f3.anoLancamento+"\nDuração: "+f3.duracao+" Minutos");
+    System.out.println("Filme: "+f3.titulo+"\nRanking: "+f3.Ranking+"\nGênero: "+f3.genero+"\nPaís "+f3.pais+"\nClassificação: "+f3.classificacao+" anos"+"\nAno de Lançamento: "+f3.anoLancamento+"\nDuração: "+f3.duracao+" Minutos");
     System.out.println("\t");
     //filme4
-    System.out.println("Filme *TOP 4*: "+f4.titulo+"\nGênero: "+f4.genero+"\nPaís "+f4.pais+"\nClassificação: "+f4.classificacao+" anos"+"\nAno de Lançamento: "+f4.anoLancamento+"\nDuração: "+f4.duracao+" Minutos");
+    System.out.println("Filme: "+f4.titulo+"\nRanking: "+f4.Ranking+"\nGênero: "+f4.genero+"\nPaís "+f4.pais+"\nClassificação: "+f4.classificacao+" anos"+"\nAno de Lançamento: "+f4.anoLancamento+"\nDuração: "+f4.duracao+" Minutos");
     System.out.println("\t");
     //filme5
-    System.out.println("Filme *TOP 5*: "+f5.titulo+"\nGênero: "+f5.genero+"\nPaís "+f5.pais+"\nClassificação: "+f5.classificacao+" anos"+"\nAno de Lançamento: "+f5.anoLancamento+"\nDuração: "+f5.duracao+" Minutos");
+    System.out.println("Filme: "+f5.titulo+"\nRanking: "+f5.Ranking+"\nGênero: "+f5.genero+"\nPaís "+f5.pais+"\nClassificação: "+f5.classificacao+" anos"+"\nAno de Lançamento: "+f5.anoLancamento+"\nDuração: "+f5.duracao+" Minutos");
     System.out.println("\t");
     //filme6
-    System.out.println("Filme *TOP 6*: "+f6.titulo+"\nGênero: "+f6.genero+"\nPaís "+f6.pais+"\nClassificação: "+f6.classificacao+" anos"+"\nAno de Lançamento: "+f6.anoLancamento+"\nDuração: "+f6.duracao+" Minutos");
+    System.out.println("Filme: "+f6.titulo+"\nRanking: "+f6.Ranking+"\nGênero: "+f6.genero+"\nPaís "+f6.pais+"\nClassificação: "+f6.classificacao+" anos"+"\nAno de Lançamento: "+f6.anoLancamento+"\nDuração: "+f6.duracao+" Minutos");
     System.out.println("\t");
     //filme7
-    System.out.println("Filme *TOP 7*: "+f7.titulo+"\nGênero: "+f7.genero+"\nPaís "+f7.pais+"\nClassificação: "+f7.classificacao+" anos"+"\nAno de Lançamento: "+f7.anoLancamento+"\nDuração: "+f7.duracao+" Minutos");
+    System.out.println("Filme: "+f7.titulo+"\nRanking: "+f7.Ranking+"\nGênero: "+f7.genero+"\nPaís "+f7.pais+"\nClassificação: "+f7.classificacao+" anos"+"\nAno de Lançamento: "+f7.anoLancamento+"\nDuração: "+f7.duracao+" Minutos");
     System.out.println("\t");
     //filme8
-    System.out.println("Filme *TOP 8*: "+f8.titulo+"\nGênero: "+f8.genero+"\nPaís "+f8.pais+"\nClassificação: "+f8.classificacao+" anos"+"\nAno de Lançamento: "+f8.anoLancamento+"\nDuração: "+f8.duracao+" Minutos");
+    System.out.println("Filme: "+f8.titulo+"\nRanking: "+f8.Ranking+"\nGênero: "+f8.genero+"\nPaís "+f8.pais+"\nClassificação: "+f8.classificacao+" anos"+"\nAno de Lançamento: "+f8.anoLancamento+"\nDuração: "+f8.duracao+" Minutos");
     System.out.println("\t");
     //filme9
-    System.out.println("Filme *TOP 9*: "+f9.titulo+"\nGênero: "+f9.genero+"\nPaís "+f9.pais+"\nClassificação: "+f9.classificacao+" anos"+"\nAno de Lançamento: "+f9.anoLancamento+"\nDuração: "+f9.duracao+" Minutos");
+    System.out.println("Filme: "+f9.titulo+"\nRanking: "+f9.Ranking+"\nGênero: "+f9.genero+"\nPaís "+f9.pais+"\nClassificação: "+f9.classificacao+" anos"+"\nAno de Lançamento: "+f9.anoLancamento+"\nDuração: "+f9.duracao+" Minutos");
     System.out.println("\t");
     //filme10
-    System.out.println("Filme *TOP 10*: "+f10.titulo+"\nGênero: "+f10.genero+"\nPaís "+f10.pais+"\nClassificação: "+f10.classificacao+" anos"+"\nAno de Lançamento: "+f10.anoLancamento+"\nDuração: "+f10.duracao+" Minutos");
+    System.out.println("Filme: "+f10.titulo+"\nRanking: "+f10.Ranking+"\nGênero: "+f10.genero+"\nPaís "+f10.pais+"\nClassificação: "+f10.classificacao+" anos"+"\nAno de Lançamento: "+f10.anoLancamento+"\nDuração: "+f10.duracao+" Minutos");
     System.out.println("\t");
     //filme11
-    System.out.println("Filme *TOP 11*: "+f11.titulo+"\nGênero: "+f11.genero+"\nPaís "+f11.pais+"\nClassificação: "+f11.classificacao+" anos"+"\nAno de Lançamento: "+f11.anoLancamento+"\nDuração: "+f11.duracao+" Minutos");
+    System.out.println("Filme: "+f11.titulo+"\nRanking: "+f11.Ranking+"\nGênero: "+f11.genero+"\nPaís "+f11.pais+"\nClassificação: "+f11.classificacao+" anos"+"\nAno de Lançamento: "+f11.anoLancamento+"\nDuração: "+f11.duracao+" Minutos");
     System.out.println("\t");
     //filme12
-    System.out.println("Filme *TOP 12*: "+f12.titulo+"\nGênero: "+f12.genero+"\nPaís "+f12.pais+"\nClassificação: "+f12.classificacao+" anos"+"\nAno de Lançamento: "+f12.anoLancamento+"\nDuração: "+f12.duracao+" Minutos");
+    System.out.println("Filme: "+f12.titulo+"\nRanking: "+f12.Ranking+"\nGênero: "+f12.genero+"\nPaís "+f12.pais+"\nClassificação: "+f12.classificacao+" anos"+"\nAno de Lançamento: "+f12.anoLancamento+"\nDuração: "+f12.duracao+" Minutos");
     System.out.println("\t");
     //filme13
-    System.out.println("Filme *TOP 13*: "+f13.titulo+"\nGênero: "+f13.genero+"\nPaís "+f13.pais+"\nClassificação: "+f13.classificacao+" anos"+"\nAno de Lançamento: "+f13.anoLancamento+"\nDuração: "+f13.duracao+" Minutos");
+    System.out.println("Filme: "+f13.titulo+"\nRanking: "+f13.Ranking+"\nGênero: "+f13.genero+"\nPaís "+f13.pais+"\nClassificação: "+f13.classificacao+" anos"+"\nAno de Lançamento: "+f13.anoLancamento+"\nDuração: "+f13.duracao+" Minutos");
     System.out.println("\t");
     //filme14
-    System.out.println("Filme *TOP 14*: "+f14.titulo+"\nGênero: "+f14.genero+"\nPaís "+f14.pais+"\nClassificação: "+f14.classificacao+" anos"+"\nAno de Lançamento: "+f14.anoLancamento+"\nDuração: "+f14.duracao+" Minutos");
+    System.out.println("Filme: "+f14.titulo+"\nRanking: "+f14.Ranking+"\nGênero: "+f14.genero+"\nPaís "+f14.pais+"\nClassificação: "+f14.classificacao+" anos"+"\nAno de Lançamento: "+f14.anoLancamento+"\nDuração: "+f14.duracao+" Minutos");
     System.out.println("\t");
     //filme15
-    System.out.println("Filme *TOP 15*: "+f15.titulo+"\nGênero: "+f15.genero+"\nPaís "+f15.pais+"\nClassificação: "+f15.classificacao+" anos"+"\nAno de Lançamento: "+f15.anoLancamento+"\nDuração: "+f15.duracao+" Minutos");
+    System.out.println("Filme: "+f15.titulo+"\nRanking: "+f15.Ranking+"\nGênero: "+f15.genero+"\nPaís "+f15.pais+"\nClassificação: "+f15.classificacao+" anos"+"\nAno de Lançamento: "+f15.anoLancamento+"\nDuração: "+f15.duracao+" Minutos");
     System.out.println("\t");
     //filme16
-    System.out.println("Filme *TOP 16*: "+f16.titulo+"\nGênero: "+f16.genero+"\nPaís "+f16.pais+"\nClassificação: "+f16.classificacao+" anos"+"\nAno de Lançamento: "+f16.anoLancamento+"\nDuração: "+f16.duracao+" Minutos");
+    System.out.println("Filme: "+f16.titulo+"\nGênero: "+f16.genero+"\nPaís "+f16.pais+"\nClassificação: "+f16.classificacao+" anos"+"\nAno de Lançamento: "+f16.anoLancamento+"\nDuração: "+f16.duracao+" Minutos");
     System.out.println("\t");
     //filme17
-    System.out.println("Filme *TOP 17*: "+f17.titulo+"\nGênero: "+f17.genero+"\nPaís "+f17.pais+"\nClassificação: "+f17.classificacao+" anos"+"\nAno de Lançamento: "+f17.anoLancamento+"\nDuração: "+f17.duracao+" Minutos");
+    System.out.println("Filme: "+f17.titulo+"\nRanking: "+f17.Ranking+"\nGênero: "+f17.genero+"\nPaís "+f17.pais+"\nClassificação: "+f17.classificacao+" anos"+"\nAno de Lançamento: "+f17.anoLancamento+"\nDuração: "+f17.duracao+" Minutos");
     System.out.println("\t");
     //filme18
-    System.out.println("Filme *TOP 18*: "+f18.titulo+"\nGênero: "+f18.genero+"\nPaís "+f18.pais+"\nClassificação: "+f18.classificacao+" anos"+"\nAno de Lançamento: "+f18.anoLancamento+"\nDuração: "+f18.duracao+" Minutos");
+    System.out.println("Filme: "+f18.titulo+"\nRanking: "+f18.Ranking+"\nGênero: "+f18.genero+"\nPaís "+f18.pais+"\nClassificação: "+f18.classificacao+" anos"+"\nAno de Lançamento: "+f18.anoLancamento+"\nDuração: "+f18.duracao+" Minutos");
     System.out.println("\t");
     //filme19
-    System.out.println("Filme *TOP 19*: "+f19.titulo+"\nGênero: "+f19.genero+"\nPaís "+f19.pais+"\nClassificação: "+f19.classificacao+" anos"+"\nAno de Lançamento: "+f19.anoLancamento+"\nDuração: "+f19.duracao+" Minutos");
+    System.out.println("Filme: "+f19.titulo+"\nRanking: "+f19.Ranking+"\nGênero: "+f19.genero+"\nPaís "+f19.pais+"\nClassificação: "+f19.classificacao+" anos"+"\nAno de Lançamento: "+f19.anoLancamento+"\nDuração: "+f19.duracao+" Minutos");
     System.out.println("\t");
     //filme20
-    System.out.println("Filme *TOP 20*: "+f20.titulo+"\nGênero: "+f20.genero+"\nPaís "+f20.pais+"\nClassificação: "+f20.classificacao+" anos"+"\nAno de Lançamento: "+f20.anoLancamento+"\nDuração: "+f20.duracao+" Minutos");
+    System.out.println("Filme: "+f20.titulo+"\nRanking: "+f20.Ranking+"\nGênero: "+f20.genero+"\nPaís "+f20.pais+"\nClassificação: "+f20.classificacao+" anos"+"\nAno de Lançamento: "+f20.anoLancamento+"\nDuração: "+f20.duracao+" Minutos");
     System.out.println("\t");
   }
 }
