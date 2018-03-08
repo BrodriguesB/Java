@@ -180,64 +180,64 @@ class Main {
     
     //Mostrando os valores
     //filme1
-    System.out.println("Filme: "+f1.titulo+"\nGênero: "+f1.genero+"\nPaís "+f1.pais+"\nClassificação: "+f1.classificacao+" anos"+"\nAno de Lançamento: "+f1.anoLancamento+"\nDuração: "+f1.duracao+" Minutos");
+    System.out.println("Filme *TOP 1*: "+f1.titulo+"\nGênero: "+f1.genero+"\nPaís "+f1.pais+"\nClassificação: "+f1.classificacao+" anos"+"\nAno de Lançamento: "+f1.anoLancamento+"\nDuração: "+f1.duracao+" Minutos");
     System.out.println("\t");
     //filme2
-    System.out.println("Filme: "+f2.titulo+"\nGênero: "+f2.genero+"\nPaís "+f2.pais+"\nClassificação: "+f2.classificacao+" anos"+"\nAno de Lançamento: "+f2.anoLancamento+"\nDuração: "+f2.duracao+" Minutos");
+    System.out.println("Filme *TOP 2*: "+f2.titulo+"\nGênero: "+f2.genero+"\nPaís "+f2.pais+"\nClassificação: "+f2.classificacao+" anos"+"\nAno de Lançamento: "+f2.anoLancamento+"\nDuração: "+f2.duracao+" Minutos");
     System.out.println("\t");
     //filme3
-    System.out.println("Filme: "+f3.titulo+"\nGênero: "+f3.genero+"\nPaís "+f3.pais+"\nClassificação: "+f3.classificacao+" anos"+"\nAno de Lançamento: "+f3.anoLancamento+"\nDuração: "+f3.duracao+" Minutos");
+    System.out.println("Filme *TOP 3*: "+f3.titulo+"\nGênero: "+f3.genero+"\nPaís "+f3.pais+"\nClassificação: "+f3.classificacao+" anos"+"\nAno de Lançamento: "+f3.anoLancamento+"\nDuração: "+f3.duracao+" Minutos");
     System.out.println("\t");
     //filme4
-    System.out.println("Filme: "+f4.titulo+"\nGênero: "+f4.genero+"\nPaís "+f4.pais+"\nClassificação: "+f4.classificacao+" anos"+"\nAno de Lançamento: "+f4.anoLancamento+"\nDuração: "+f4.duracao+" Minutos");
+    System.out.println("Filme *TOP 4*: "+f4.titulo+"\nGênero: "+f4.genero+"\nPaís "+f4.pais+"\nClassificação: "+f4.classificacao+" anos"+"\nAno de Lançamento: "+f4.anoLancamento+"\nDuração: "+f4.duracao+" Minutos");
     System.out.println("\t");
     //filme5
-    System.out.println("Filme: "+f5.titulo+"\nGênero: "+f5.genero+"\nPaís "+f5.pais+"\nClassificação: "+f5.classificacao+" anos"+"\nAno de Lançamento: "+f5.anoLancamento+"\nDuração: "+f5.duracao+" Minutos");
+    System.out.println("Filme *TOP 5*: "+f5.titulo+"\nGênero: "+f5.genero+"\nPaís "+f5.pais+"\nClassificação: "+f5.classificacao+" anos"+"\nAno de Lançamento: "+f5.anoLancamento+"\nDuração: "+f5.duracao+" Minutos");
     System.out.println("\t");
     //filme6
-    System.out.println("Filme: "+f6.titulo+"\nGênero: "+f6.genero+"\nPaís "+f6.pais+"\nClassificação: "+f6.classificacao+" anos"+"\nAno de Lançamento: "+f6.anoLancamento+"\nDuração: "+f6.duracao+" Minutos");
+    System.out.println("Filme *TOP 6*: "+f6.titulo+"\nGênero: "+f6.genero+"\nPaís "+f6.pais+"\nClassificação: "+f6.classificacao+" anos"+"\nAno de Lançamento: "+f6.anoLancamento+"\nDuração: "+f6.duracao+" Minutos");
     System.out.println("\t");
     //filme7
-    System.out.println("Filme: "+f7.titulo+"\nGênero: "+f7.genero+"\nPaís "+f7.pais+"\nClassificação: "+f7.classificacao+" anos"+"\nAno de Lançamento: "+f7.anoLancamento+"\nDuração: "+f7.duracao+" Minutos");
+    System.out.println("Filme *TOP 7*: "+f7.titulo+"\nGênero: "+f7.genero+"\nPaís "+f7.pais+"\nClassificação: "+f7.classificacao+" anos"+"\nAno de Lançamento: "+f7.anoLancamento+"\nDuração: "+f7.duracao+" Minutos");
     System.out.println("\t");
     //filme8
-    System.out.println("Filme: "+f8.titulo+"\nGênero: "+f8.genero+"\nPaís "+f8.pais+"\nClassificação: "+f8.classificacao+" anos"+"\nAno de Lançamento: "+f8.anoLancamento+"\nDuração: "+f8.duracao+" Minutos");
+    System.out.println("Filme *TOP 8*: "+f8.titulo+"\nGênero: "+f8.genero+"\nPaís "+f8.pais+"\nClassificação: "+f8.classificacao+" anos"+"\nAno de Lançamento: "+f8.anoLancamento+"\nDuração: "+f8.duracao+" Minutos");
     System.out.println("\t");
     //filme9
-    System.out.println("Filme: "+f9.titulo+"\nGênero: "+f9.genero+"\nPaís "+f9.pais+"\nClassificação: "+f9.classificacao+" anos"+"\nAno de Lançamento: "+f9.anoLancamento+"\nDuração: "+f9.duracao+" Minutos");
+    System.out.println("Filme *TOP 9*: "+f9.titulo+"\nGênero: "+f9.genero+"\nPaís "+f9.pais+"\nClassificação: "+f9.classificacao+" anos"+"\nAno de Lançamento: "+f9.anoLancamento+"\nDuração: "+f9.duracao+" Minutos");
     System.out.println("\t");
     //filme10
-    System.out.println("Filme: "+f10.titulo+"\nGênero: "+f10.genero+"\nPaís "+f10.pais+"\nClassificação: "+f10.classificacao+" anos"+"\nAno de Lançamento: "+f10.anoLancamento+"\nDuração: "+f10.duracao+" Minutos");
+    System.out.println("Filme *TOP 10*: "+f10.titulo+"\nGênero: "+f10.genero+"\nPaís "+f10.pais+"\nClassificação: "+f10.classificacao+" anos"+"\nAno de Lançamento: "+f10.anoLancamento+"\nDuração: "+f10.duracao+" Minutos");
     System.out.println("\t");
     //filme11
-    System.out.println("Filme: "+f11.titulo+"\nGênero: "+f11.genero+"\nPaís "+f11.pais+"\nClassificação: "+f11.classificacao+" anos"+"\nAno de Lançamento: "+f11.anoLancamento+"\nDuração: "+f11.duracao+" Minutos");
+    System.out.println("Filme *TOP 11*: "+f11.titulo+"\nGênero: "+f11.genero+"\nPaís "+f11.pais+"\nClassificação: "+f11.classificacao+" anos"+"\nAno de Lançamento: "+f11.anoLancamento+"\nDuração: "+f11.duracao+" Minutos");
     System.out.println("\t");
     //filme12
-    System.out.println("Filme: "+f12.titulo+"\nGênero: "+f12.genero+"\nPaís "+f12.pais+"\nClassificação: "+f12.classificacao+" anos"+"\nAno de Lançamento: "+f12.anoLancamento+"\nDuração: "+f12.duracao+" Minutos");
+    System.out.println("Filme *TOP 12*: "+f12.titulo+"\nGênero: "+f12.genero+"\nPaís "+f12.pais+"\nClassificação: "+f12.classificacao+" anos"+"\nAno de Lançamento: "+f12.anoLancamento+"\nDuração: "+f12.duracao+" Minutos");
     System.out.println("\t");
     //filme13
-    System.out.println("Filme: "+f13.titulo+"\nGênero: "+f13.genero+"\nPaís "+f13.pais+"\nClassificação: "+f13.classificacao+" anos"+"\nAno de Lançamento: "+f13.anoLancamento+"\nDuração: "+f13.duracao+" Minutos");
+    System.out.println("Filme *TOP 13*: "+f13.titulo+"\nGênero: "+f13.genero+"\nPaís "+f13.pais+"\nClassificação: "+f13.classificacao+" anos"+"\nAno de Lançamento: "+f13.anoLancamento+"\nDuração: "+f13.duracao+" Minutos");
     System.out.println("\t");
     //filme14
-    System.out.println("Filme: "+f14.titulo+"\nGênero: "+f14.genero+"\nPaís "+f14.pais+"\nClassificação: "+f14.classificacao+" anos"+"\nAno de Lançamento: "+f14.anoLancamento+"\nDuração: "+f14.duracao+" Minutos");
+    System.out.println("Filme *TOP 14*: "+f14.titulo+"\nGênero: "+f14.genero+"\nPaís "+f14.pais+"\nClassificação: "+f14.classificacao+" anos"+"\nAno de Lançamento: "+f14.anoLancamento+"\nDuração: "+f14.duracao+" Minutos");
     System.out.println("\t");
     //filme15
-    System.out.println("Filme: "+f15.titulo+"\nGênero: "+f15.genero+"\nPaís "+f15.pais+"\nClassificação: "+f15.classificacao+" anos"+"\nAno de Lançamento: "+f15.anoLancamento+"\nDuração: "+f15.duracao+" Minutos");
+    System.out.println("Filme *TOP 15*: "+f15.titulo+"\nGênero: "+f15.genero+"\nPaís "+f15.pais+"\nClassificação: "+f15.classificacao+" anos"+"\nAno de Lançamento: "+f15.anoLancamento+"\nDuração: "+f15.duracao+" Minutos");
     System.out.println("\t");
     //filme16
-    System.out.println("Filme: "+f16.titulo+"\nGênero: "+f16.genero+"\nPaís "+f16.pais+"\nClassificação: "+f16.classificacao+" anos"+"\nAno de Lançamento: "+f16.anoLancamento+"\nDuração: "+f16.duracao+" Minutos");
+    System.out.println("Filme *TOP 16*: "+f16.titulo+"\nGênero: "+f16.genero+"\nPaís "+f16.pais+"\nClassificação: "+f16.classificacao+" anos"+"\nAno de Lançamento: "+f16.anoLancamento+"\nDuração: "+f16.duracao+" Minutos");
     System.out.println("\t");
     //filme17
-    System.out.println("Filme: "+f17.titulo+"\nGênero: "+f17.genero+"\nPaís "+f17.pais+"\nClassificação: "+f17.classificacao+" anos"+"\nAno de Lançamento: "+f17.anoLancamento+"\nDuração: "+f17.duracao+" Minutos");
+    System.out.println("Filme *TOP 17*: "+f17.titulo+"\nGênero: "+f17.genero+"\nPaís "+f17.pais+"\nClassificação: "+f17.classificacao+" anos"+"\nAno de Lançamento: "+f17.anoLancamento+"\nDuração: "+f17.duracao+" Minutos");
     System.out.println("\t");
     //filme18
-    System.out.println("Filme: "+f18.titulo+"\nGênero: "+f18.genero+"\nPaís "+f18.pais+"\nClassificação: "+f18.classificacao+" anos"+"\nAno de Lançamento: "+f18.anoLancamento+"\nDuração: "+f18.duracao+" Minutos");
+    System.out.println("Filme *TOP 18*: "+f18.titulo+"\nGênero: "+f18.genero+"\nPaís "+f18.pais+"\nClassificação: "+f18.classificacao+" anos"+"\nAno de Lançamento: "+f18.anoLancamento+"\nDuração: "+f18.duracao+" Minutos");
     System.out.println("\t");
     //filme19
-    System.out.println("Filme: "+f19.titulo+"\nGênero: "+f19.genero+"\nPaís "+f19.pais+"\nClassificação: "+f19.classificacao+" anos"+"\nAno de Lançamento: "+f19.anoLancamento+"\nDuração: "+f19.duracao+" Minutos");
+    System.out.println("Filme *TOP 19*: "+f19.titulo+"\nGênero: "+f19.genero+"\nPaís "+f19.pais+"\nClassificação: "+f19.classificacao+" anos"+"\nAno de Lançamento: "+f19.anoLancamento+"\nDuração: "+f19.duracao+" Minutos");
     System.out.println("\t");
     //filme20
-    System.out.println("Filme: "+f20.titulo+"\nGênero: "+f20.genero+"\nPaís "+f20.pais+"\nClassificação: "+f20.classificacao+" anos"+"\nAno de Lançamento: "+f20.anoLancamento+"\nDuração: "+f20.duracao+" Minutos");
+    System.out.println("Filme *TOP 20*: "+f20.titulo+"\nGênero: "+f20.genero+"\nPaís "+f20.pais+"\nClassificação: "+f20.classificacao+" anos"+"\nAno de Lançamento: "+f20.anoLancamento+"\nDuração: "+f20.duracao+" Minutos");
     System.out.println("\t");
   }
 }
